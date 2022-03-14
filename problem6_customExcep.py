@@ -2,6 +2,8 @@
 class CustomException(Exception):
     """Custom Exception class"""
 
+
+
 class Problem6(CustomException):
     def __init__(self,k):
         self.k=k
