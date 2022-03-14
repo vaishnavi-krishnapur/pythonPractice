@@ -15,6 +15,7 @@ class Problem8():
         self.converted_appointments =[]
         for i in fileContent.split():
             self.converted_appointments.append(self.convert_to_24_hour_time(i))
+        file.close()
         return self.converted_appointments
 
     def booking_appoitment(self):

@@ -13,6 +13,7 @@ class Problem12():
                 value=tuple(i.split(','))
                 dict_values.append(value)
             genere_data[genre] = dict_values
+            file.close()
         return genere_data
 
     def get_author_data(self,genere_data):

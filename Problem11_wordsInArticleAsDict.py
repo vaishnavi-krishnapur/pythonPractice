@@ -13,6 +13,7 @@ class Problem11():
                     self.word_freq[i]=1
                 else:
                     self.word_freq[i] += 1
+        file.close()
         return self.word_freq
 
     def get_n_most_frequent(self, word_freq,n):
