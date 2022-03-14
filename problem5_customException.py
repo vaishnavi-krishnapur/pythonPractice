@@ -3,6 +3,7 @@ class CustomException(Exception):
     """Custom Exception raised"""
 
 salary = 1000000
+
 try:
     if not 100000 < salary < 2000000:
         raise CustomException()
